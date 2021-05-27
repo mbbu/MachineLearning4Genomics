@@ -37,6 +37,108 @@ EANBiT Fellows
 ### Training Topics
 - 
 
+# Quick Introduction to Jupyter Notebooks
+
+Throughout this course, we will be using Jupyter Notebooks. Although the HPC you will be using will have Jupyter setup, these notes are provided for you want to set it up in your Computer. 
+
+## Introduction
+The Jupyter Notebook is an interactive computing environment that enables users to author notebooks, which contain a complete and self-contained record of a computation. These notebooks can be shared more efficiently. The notebooks may contain:
+* Live code
+* Interactive widgets
+* Plots
+* Narrative text
+* Equations
+* Images
+* Video
+
+It is good to note that "Jupyter" is a loose acronym meaning Julia, Python, and R; the primary languages supported by Jupyter. 
+
+The notebook can allow a computational researcher to create reproducible documentation of their research. As Bioinformatics is datacentric, use of Jupyter Notebooks increases research transparency, hence promoting open science. 
+
+## Pre-requisites
+The machine learning for genomics assumes farmiliarity with Python and Pandas. Please have a look at the Python4Bioinformatics training materials for a refresher. 
+
+## First Steps
+
+### Installation
+
+1. [Download Miniconda](https://www.anaconda.com/download/) for your specific OS to your home directory
+    - Linux: `wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh`
+    - Mac: `curl https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh`
+2. Run:
+    - `bash Miniconda3-latest-Linux-x86_64.sh`
+    - `bash Miniconda3-latest-MacOSX-x86_64.sh`
+3. Follow all the prompts: if unsure, accept defaults
+4. Close and re-open your terminal
+5. If the installation is successful, you should see a list of installed packages with
+    - `conda list`
+
+If the command cannot be found, you can add Anaconda bin to the path using:
+    `export PATH=~/miniconda3/bin:$PATH`
+
+For reproducible analysis, you can [create a conda environment](https://conda.io/docs/user-guide/tasks/manage-environments.html) with all the Python packages you used.
+
+    `conda create --name bioinf python jupyter`
+    
+To activate the conda environment:
+
+    `source activate bioinf`
+
+Having set-up conda environment, you can install `jupyter lab` using pip. 
+
+`conda install -c conda-forge jupyterlab`
+
+or by using pip
+
+`pip3 install jupyter`
+
+## How to learn from this resource?
+
+Download all the notebooks from [MachineLearning4Genomics(https://github.com/mbbu/MachineLearning4Genomics). The easiest way to do that is to clone the GitHub repository to your working directory using any of the following commands:
+
+    git clone https://github.com/mbbu/MachineLearning4Genomics.git
+
+or
+
+    wget https://github.com/mbbu/MachineLearning4Genomics/archive/master.zip
+    
+    unzip master.zip
+    
+    rm master.zip
+    
+    cd MachineLearning4Genomics-master
+    
+Then you can quickly launch jupyter lab using:
+
+`jupyter lab`
+
+NB: We will use a jupyter lab for training. 
+A Jupyter notebook is made up of many cells. Each cell can contain Python code. You can execute a cell by clicking on it and pressing `Shift-Enter` or `Ctrl-Enter` (run without moving to the next line). 
+
+
+## Contents
+
+This course is broken up into a number of notebooks (lectures).
+
+### Session 1
+* [00](Intro-to-Python/00.ipynb) This introduction with additional information below on how to get started in running python
+* [01](Intro-to-Python/01.ipynb) Basic data types and operations (numbers, strings) 
+
+### Session 2
+* [02](Intro-to-Python/02.ipynb) String manipulation 
+* [03](Intro-to-Python/03.ipynb) Data structures: Lists and Tuples
+* [04](Intro-to-Python/04.ipynb) Data structures (continued): dictionaries
+
+### Session 3
+* [05](Intro-to-Python/05.ipynb) Control statements: if, for, while, try statements
+* [06](Intro-to-Python/06.ipynb) Functions
+* [07](Intro-to-Python/07.ipynb) Scripting with python
+* [08](Intro-to-Python/08.ipynb) Data Analysis and plotting with Pandas
+* [09](Intro-to-Python/09.ipynb) Reproducible Bioinformatics Research
+
+This is a tutorial style introduction to Python. For a quick reminder/summary of Python syntax, the following [Quick Reference Card](http://www.cs.put.poznan.pl/csobaniec/software/python/py-qrc.html) may be useful. A longer and more detailed tutorial style introduction to python is available from the python site at: https://docs.python.org/3/tutorial/.
+
+
 
 
 ### Resources to use:
@@ -47,3 +149,12 @@ EANBiT Fellows
 4. [Machine Learning for Genomics](https://towardsdatascience.com/machine-learning-for-genomics-c02270a51795). How to transform your genomics data to fit into machine learning models. 
 5. [Machine Learning For Good](https://github.com/DeltaAnalytics/machine_learning_for_good)
 
+
+## How to Contribute
+
+To contribute, fork the repository, make some updates and send me a pull request. 
+
+Alternatively, you can open an issue. 
+
+## License
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
