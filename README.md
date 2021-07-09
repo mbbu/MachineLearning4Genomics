@@ -149,6 +149,23 @@ This is a tutorial style introduction to Python. For a quick reminder/summary of
 4. [Machine Learning for Genomics](https://towardsdatascience.com/machine-learning-for-genomics-c02270a51795). How to transform your genomics data to fit into machine learning models. 
 5. [Machine Learning For Good](https://github.com/DeltaAnalytics/machine_learning_for_good)
 
+https://www.theaidream.com/post/explore-the-world-of-bioinformatics-with-machine-learning
+
+https://medium.com/mlearning-ai/apply-machine-learning-algorithms-for-genomics-data-classification-132972933723 or https://www.theaidream.com/ 
+
+https://github.com/burgshrimps/geogenome
+
+https://towardsdatascience.com/machine-learning-for-genomics-c02270a51795
+
+https://github.com/nageshsinghc4/DNA-Sequence-Machine-learning
+
+https://towardsdatascience.com/machine-learning-in-bioinformatics-genome-geography-d1b1dbbfb4c2
+
+https://medium.com/mlearning-ai/apply-machine-learning-algorithms-for-genomics-data-classification-132972933723
+
+To Find datasets and get learning even further. 
+https://www.kaggle.com/nageshsingh/classification-of-cancer
+
 
 ## How to Contribute
 
