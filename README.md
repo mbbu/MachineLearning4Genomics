@@ -121,22 +121,19 @@ A Jupyter notebook is made up of many cells. Each cell can contain Python code. 
 This course is broken up into a number of notebooks (lectures).
 
 ### Session 1
-* [00](Notebooks/00.ipynb) 
-* [01](Intro-to-Python/01.ipynb) 
+* [00](Notebooks/00_Introduction_Content.ipynb) 
+* [01](Notebooks/01_Basic_Concepts.ipynb) 
+* [02](Notebooks/02_Linear_Regression.ipynb)
 
 ### Session 2
-* [02](Intro-to-Python/02.ipynb) 
-* [03](Intro-to-Python/03.ipynb) 
-* [04](Intro-to-Python/04.ipynb) 
+* [03](Notebooks/03_RandomForest_DecisionTree.ipynb) 
+* [04](Intro-to-Python/04_Feature_Engineering_genomics.ipynb) 
 
 ### Session 3
-* [05](Intro-to-Python/05.ipynb) 
-* [06](Intro-to-Python/06.ipynb) 
-* [07](Intro-to-Python/07.ipynb) 
-* [08](Intro-to-Python/08.ipynb) 
-* [09](Intro-to-Python/09.ipynb) 
+* [05](Notebooks/05_Feature_Engineering_NLP.ipynb) 
 
-
+### Session 3
+* [06](Intro-to-Python/06_MachineLeaning_VCF.ipynb) 
 
 
 ### Resources to use:
