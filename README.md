@@ -39,7 +39,7 @@ EANBiT Fellows
 
 # Quick Introduction to Jupyter Notebooks
 
-Throughout this course, we will be using Jupyter Notebooks. Although the HPC you will be using will have Jupyter setup, these notes are provided for you want to set it up in your Computer. 
+Throughout this course, we will be using Jupyter Notebooks. 
 
 ## Introduction
 The Jupyter Notebook is an interactive computing environment that enables users to author notebooks, which contain a complete and self-contained record of a computation. These notebooks can be shared more efficiently. The notebooks may contain:
@@ -56,7 +56,7 @@ It is good to note that "Jupyter" is a loose acronym meaning Julia, Python, and 
 The notebook can allow a computational researcher to create reproducible documentation of their research. As Bioinformatics is datacentric, use of Jupyter Notebooks increases research transparency, hence promoting open science. 
 
 ## Pre-requisites
-The machine learning for genomics assumes farmiliarity with Python and Pandas. Please have a look at the Python4Bioinformatics training materials for a refresher. 
+The machine learning for genomics assumes farmiliarity with Python and Pandas. Please have a look at the [Python4Bioinformatics]() training materials for a refresher. 
 
 ## First Steps
 
@@ -78,11 +78,11 @@ If the command cannot be found, you can add Anaconda bin to the path using:
 
 For reproducible analysis, you can [create a conda environment](https://conda.io/docs/user-guide/tasks/manage-environments.html) with all the Python packages you used.
 
-    `conda create --name bioinf python jupyter`
+    `conda create --name ml_genomics python jupyter`
     
 To activate the conda environment:
 
-    `source activate bioinf`
+    `source activate ml_genomics`
 
 Having set-up conda environment, you can install `jupyter lab` using pip. 
 
@@ -121,22 +121,20 @@ A Jupyter notebook is made up of many cells. Each cell can contain Python code. 
 This course is broken up into a number of notebooks (lectures).
 
 ### Session 1
-* [00](Intro-to-Python/00.ipynb) This introduction with additional information below on how to get started in running python
-* [01](Intro-to-Python/01.ipynb) Basic data types and operations (numbers, strings) 
+* [00](Notebooks/00.ipynb) 
+* [01](Intro-to-Python/01.ipynb) 
 
 ### Session 2
-* [02](Intro-to-Python/02.ipynb) String manipulation 
-* [03](Intro-to-Python/03.ipynb) Data structures: Lists and Tuples
-* [04](Intro-to-Python/04.ipynb) Data structures (continued): dictionaries
+* [02](Intro-to-Python/02.ipynb) 
+* [03](Intro-to-Python/03.ipynb) 
+* [04](Intro-to-Python/04.ipynb) 
 
 ### Session 3
-* [05](Intro-to-Python/05.ipynb) Control statements: if, for, while, try statements
-* [06](Intro-to-Python/06.ipynb) Functions
-* [07](Intro-to-Python/07.ipynb) Scripting with python
-* [08](Intro-to-Python/08.ipynb) Data Analysis and plotting with Pandas
-* [09](Intro-to-Python/09.ipynb) Reproducible Bioinformatics Research
-
-This is a tutorial style introduction to Python. For a quick reminder/summary of Python syntax, the following [Quick Reference Card](http://www.cs.put.poznan.pl/csobaniec/software/python/py-qrc.html) may be useful. A longer and more detailed tutorial style introduction to python is available from the python site at: https://docs.python.org/3/tutorial/.
+* [05](Intro-to-Python/05.ipynb) 
+* [06](Intro-to-Python/06.ipynb) 
+* [07](Intro-to-Python/07.ipynb) 
+* [08](Intro-to-Python/08.ipynb) 
+* [09](Intro-to-Python/09.ipynb) 
 
 
 
