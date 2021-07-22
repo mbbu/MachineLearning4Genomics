@@ -34,8 +34,31 @@ From the above objectives, the workshop participant should acquire the following
 
 EANBiT Fellows
 
-### Training Topics
-- 
+## Contents
+
+This course is broken up into several notebooks (lectures).
+
+### Session 1
+* [Notebook_01](Notebooks/01_Basic_Concepts.ipynb) Machine learning Concepts 
+    * [Module_01_Slides](https://docs.google.com/presentation/d/1PhknhMdooQT860csFINj3IgxDDnkF-C3WKSI79CXdv4/edit?usp=sharing) Introduction to machine learning
+    * [Module_02_Slides](https://docs.google.com/presentation/d/130bKZj6bScQ9NGykzbUsjjoYbYsmJFAWnYRGzbf-S4U/edit?usp=sharing) Machine Leaning Deep Dive
+
+* [Notebook_02](Notebooks/02_Linear_Regression.ipynb) Linear regression
+    * [Module 03_Slides](https://docs.google.com/presentation/d/16VhmU8YMTqHkUYXwOVapR88wFLRIIoHwqLQ6QhcD7LU/edit?usp=sharing) Introduction to Linear Regression
+
+
+### Session 2
+* [Notebook_03](Notebooks/03_RandomForest_DecisionTree.ipynb) Random Forest and Decision Trees
+* [Notebook_04](Intro-to-Python/04_Feature_Engineering_genomics.ipynb) Feature Engineering in Genomics
+    * [Module_04_Slides](https://docs.google.com/presentation/d/1bZmmy2JcAWZf6RuwUZVccKSHvUSqL1SgdZ5RAO_vK7g/edit?usp=sharing) Decision Trees
+
+
+### Session 3
+* [Notebook_05](Notebooks/05_Feature_Engineering_NLP.ipynb) Feature Engineering Example using NLP
+
+
+### Session 4
+* [Notebook_06](Intro-to-Python/06_MachineLeaning_VCF.ipynb) Machine Learning Using VCF output: Dimensionality Reduction
 
 # Quick Introduction to Jupyter Notebooks
 
@@ -114,25 +137,6 @@ Then you can quickly launch jupyter lab using:
 
 NB: We will use a jupyter lab for training. 
 A Jupyter notebook is made up of many cells. Each cell can contain Python code. You can execute a cell by clicking on it and pressing `Shift-Enter` or `Ctrl-Enter` (run without moving to the next line). 
-
-
-## Contents
-
-This course is broken up into several notebooks (lectures).
-
-### Session 1
-* [01](Notebooks/01_Basic_Concepts.ipynb) Machine learning Concepts
-* [02](Notebooks/02_Linear_Regression.ipynb) Linear regression
-
-### Session 2
-* [03](Notebooks/03_RandomForest_DecisionTree.ipynb) Random Forest and Decision Trees
-* [04](Intro-to-Python/04_Feature_Engineering_genomics.ipynb) Feature Engineering in Genomics
-
-### Session 3
-* [05](Notebooks/05_Feature_Engineering_NLP.ipynb) Feature Engineering Example using NLP
-
-### Session 4
-* [06](Intro-to-Python/06_MachineLeaning_VCF.ipynb) Machine Learning Using VCF output: Dimensionality Reduction
 
 
 ### Resources to use:
