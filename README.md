@@ -121,7 +121,6 @@ A Jupyter notebook is made up of many cells. Each cell can contain Python code. 
 This course is broken up into several notebooks (lectures).
 
 ### Session 1
-* [00](Notebooks/00_Introduction_Content.ipynb) Introduction Content
 * [01](Notebooks/01_Basic_Concepts.ipynb) Machine learning Concepts
 * [02](Notebooks/02_Linear_Regression.ipynb) Linear regression
 
@@ -144,22 +143,19 @@ This course is broken up into several notebooks (lectures).
 4. [Machine Learning for Genomics](https://towardsdatascience.com/machine-learning-for-genomics-c02270a51795). How to transform your genomics data to fit into machine learning models. 
 5. [Machine Learning For Good](https://github.com/DeltaAnalytics/machine_learning_for_good)
 
-https://www.theaidream.com/post/explore-the-world-of-bioinformatics-with-machine-learning
+6. [Machine Leaning in Bioinformatics](https://www.theaidream.com/post/explore-the-world-of-bioinformatics-with-machine-learning)
 
-https://medium.com/mlearning-ai/apply-machine-learning-algorithms-for-genomics-data-classification-132972933723 or https://www.theaidream.com/ 
+7. [Feature Engineering in Genomics - Variant calling](https://towardsdatascience.com/machine-learning-in-bioinformatics-genome-geography-d1b1dbbfb4c2)
 
-https://github.com/burgshrimps/geogenome
+8. [Machine leaning for genomic classification](https://medium.com/mlearning-ai/apply-machine-learning-algorithms-for-genomics-data-classification-132972933723)
 
-https://towardsdatascience.com/machine-learning-for-genomics-c02270a51795
+9. [Support Vector Machines](https://towardsdatascience.com/https-medium-com-pupalerushikesh-svm-f4b42800e989)
 
-https://github.com/nageshsinghc4/DNA-Sequence-Machine-learning
+10. [Mathematics For Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
 
-https://towardsdatascience.com/machine-learning-in-bioinformatics-genome-geography-d1b1dbbfb4c2
+- https://github.com/nageshsinghc4/DNA-Sequence-Machine-learning
 
-https://medium.com/mlearning-ai/apply-machine-learning-algorithms-for-genomics-data-classification-132972933723
-
-To Find datasets and get learning even further. 
-https://www.kaggle.com/nageshsingh/classification-of-cancer
+To Find datasets and get learning even further, [use Kaggle](https://www.kaggle.com/nageshsingh/classification-of-cancer)
 
 
 ## How to Contribute
