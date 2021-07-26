@@ -156,6 +156,7 @@ A Jupyter notebook is made up of many cells. Each cell can contain Python code. 
 9. [Support Vector Machines](https://towardsdatascience.com/https-medium-com-pupalerushikesh-svm-f4b42800e989)
 
 10. [Mathematics For Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
+11. [Deep Learning Book - Machine Learning Chapter](https://www.deeplearningbook.org/contents/ml.html)
 
 - https://github.com/nageshsinghc4/DNA-Sequence-Machine-learning
 
@@ -169,4 +170,4 @@ To contribute, fork the repository, make some updates and send me a pull request
 Alternatively, you can open an issue. 
 
 ## License
-This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
+This work is licensed under the Creative Commons Attribution 4.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
